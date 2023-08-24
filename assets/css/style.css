@@ -1020,6 +1020,23 @@ section {
   margin-bottom: 20px;
 }
 
+#contact .section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  }
+ 
+
+
+
+  #contact a:hover {
+   
+   color: #333;
+   transition: 0.5s;
+  }
+
 #contact .info {
   color: #333333;
 }
