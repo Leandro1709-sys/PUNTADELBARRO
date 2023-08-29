@@ -1149,18 +1149,18 @@ section {
 }
 
 #contact .social-links {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 #contact .social-links a {
-  font-size: 18px;
+  font-size: 36px;
   background: #333;
   color: #fff;
   line-height: 1;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 70px;
+  height: 70px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
@@ -1174,6 +1174,7 @@ section {
 #contact .social-links a:hover {
   background: #2dc997;
   color: #fff;
+ 
 }
 
 #contact .php-email-form .error-message {
