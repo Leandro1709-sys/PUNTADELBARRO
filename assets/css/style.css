@@ -754,7 +754,79 @@ section {
   font-size: 14px;
   line-height: 24px;
 }
+/* Services Section
+--------------------------------*/
+#services2 {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
 
+#services2 .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#services2 .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #ecda39;
+}
+
+#services2 .icon a {
+  display: inline-block;
+}
+
+#services2 .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#services2 .box:hover .icon {
+  background: #fff;
+  border: 2px solid #ecda39;
+}
+
+#services2 .box:hover .icon i {
+  color: #2dc997;
+}
+
+#services2 .box:hover .icon a {
+  color: #2dc997;
+}
+
+#services2 .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services2 .title a {
+  color: #111;
+}
+
+#services2 .description {
+  font-size: 14px;
+  line-height: 24px;
+}
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
